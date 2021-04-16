@@ -2,6 +2,14 @@
 
 It's time to make a simple key value store. But instead of fancy B-trees and whatever magicalness, we are just going to use an append-only file.
 
+## Getting started
+
+Clone the repo: `git clone https://github.com/nolwn/data-store.git`
+Install the dependencies: `npm i`
+Run the tests: `npm test` (they should all fail)
+
+Your code you go in the exported functions in `index.js`. Go make all those tests pass!
+
 ## Creating an item
 
 When an item gets added to the store, it just gets appended to the file in a certain special way:
